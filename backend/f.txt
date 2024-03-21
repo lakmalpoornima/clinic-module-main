@@ -1,0 +1,47 @@
+
+          // Geo Settings
+              Divisions
+              Areas
+              Departments
+              Company Info
+            
+          // General Settings
+           Billing Category
+           Generic Type
+            Price Category
+            Stock Category
+            Stock Sub Category
+            Unit of Measurment
+            Item
+            Location
+   
+            // Partner Settings
+                Designation
+                Speciality
+                Agent
+                Consultant
+                Debtor
+                Quoted Price
+                Outsource Company
+                
+            // Laboratory Settings
+           
+               
+                  Analyzer
+                  Antibiotics
+                  Organism
+                  Container Type
+                  Test Group
+                  Elements
+                  Specimans
+                
+// user transaction =========================
+           
+                  Users
+                  User Groups
+                  Security Rights
+                  User role view
+                  User
+                  Create New User
+                
+ 

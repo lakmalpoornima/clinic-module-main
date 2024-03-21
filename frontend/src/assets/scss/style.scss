@@ -1,0 +1,122 @@
+// If you want to override variables do it here
+@import "variables";
+// Import styles with default layout.
+@import "~@coreui/coreui-pro/scss/coreui";
+// If you want to add something do it here
+@import "custom";
+.card-header:not(.content-center)>.c-icon:first-child {
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+    vertical-align: top;
+    width: 1.2rem;
+    height: .2rem;
+    font-size: 1.2rem;
+}
+
+.theme {
+    header-height: 200px;
+}
+
+$header-height: 200px !default;
+$header-brand-width: auto !default;
+$header-brand-minimized-width: 56px !default;
+$header-padding-y: $spacer / 2 !default;
+$header-padding-x: $spacer !default;
+$header-nav-link-padding-x: .5rem !default;
+$header-brand-font-size: $font-size-lg !default;
+$header-brand-height: $header-brand-font-size * $line-height-base !default;
+$header-brand-padding-y: ($nav-link-height - $header-brand-height) / 2 !default;
+.table th,
+.table td {
+    padding: 0.25rem;
+    // padding-right: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid;
+    border-top-color: currentcolor;
+    border-top-color: #d8dbe0;
+}
+
+.table-hover tbody tr:hover {
+    color: #1c15dd;
+}
+
+// .c-main {
+//     -ms-flex-preferred-size: auto;
+//     flex-basis: auto;
+//     -ms-flex-negative: 0;
+//     flex-shrink: 0;
+//     -webkit-box-flex: 1;
+//     -ms-flex-positive: 1;
+//     flex-grow: 1;
+//     min-width: 0;
+//     padding-top: 2rem;
+// }
+.container {
+    position: absolute;
+    right: 0;
+    // margin: 20px;
+    // max-width: 300px;
+    // padding: 16px;
+    background-color: rgb(255, 255, 255);
+    // background-image: url("https://sgmh.org/wp-content/uploads/2018/01/sgmh-physician-bg-home-min.jpg");
+    // min-height: 380px
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+// .container-fluid,
+// .container-sm,
+// .container-md,
+// .container-lg,
+// .container-xl,
+// .container-xxl {
+//     width: 100%;
+//     // padding-right: 1px;
+//     // padding-left: 1px;
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+// table th all
+// .table th,
+// .table td {
+//     padding: 0.05rem;
+//     vertical-align: top;
+//     border-top: 1px solid;
+//     border-top-color: #f8f9fc;
+// }
+//Container main
+.c-main {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: 0;
+    // padding-top: 0.2rem;
+    // padding-left: 0.2rem;
+}
+
+// container left right
+.c-main>.container-fluid,
+.c-main>.container-sm,
+.c-main>.container-md,
+.c-main>.container-lg,
+.c-main>.container-xl,
+.c-main>.container-xxl {
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    // padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.50rem;
+}

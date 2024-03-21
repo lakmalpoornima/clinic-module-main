@@ -1,0 +1,9 @@
+
+database_name=Hospital
+database_ip=54.254.1.197
+database_port=5432
+database_password=leeladealwis@1111
+database_user=postgres
+consumer_origin=http://localhost:8080
+webapp_port=9085
+

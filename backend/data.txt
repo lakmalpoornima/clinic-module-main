@@ -1,0 +1,23 @@
+
+// Master User
+id
+is_active
+user_code
+company_code
+user_name
+department_code
+email
+telephone_no
+mobile_no
+address
+image
+login_id
+password_hash
+passkey
+deleted
+create_date
+modify_date
+dated_data
+create_id
+modify_id
+deleted_id

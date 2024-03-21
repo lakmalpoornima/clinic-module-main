@@ -1,0 +1,12 @@
+output   = "models"
+wipe     = true
+no-tests = true
+
+[mssql]
+  dbname = "Endocrine"
+  host   = "localhost"
+  port   = 1433
+  user   = "sa"
+  pass   = "Password"
+  blacklist = ["migrations", "other"]
+  whitelist = []
